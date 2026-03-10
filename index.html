@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="homepage">
+    
+    <div  class="title">
+        <h1>THE JUDGE</h1>
+        <h3>Uno strumento per il confronto e la scelta di risposte di modelli LLM</h3>
+    </div>
 
+    <div class="prompt-container">
+        <form id="prompt-form" onsubmit="search(event)">
+            <input type="text" placeholder="inserisci qui il prompt">
+            <input type="submit" value="invio">
+        </form>
+    </div>
+ 
+    <div>
+        <p id="risposta">
+
+        </p>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
