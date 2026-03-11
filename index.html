@@ -9,31 +9,36 @@
 <body class="homepage">
     
     <div  class="title">
-        <h1>THE JUDGE</h1>
+        <img src="Gemini_Generated_Image_ve18t1ve18t1ve18.png" alt="">
+        
         <h3>Uno strumento per il confronto e la scelta di risposte di modelli LLM</h3>
     </div>
 
 
     <div class="centered">
-        <form id="prompt-form" onsubmit="search(event)">
-            <textarea class="big-container"></textarea>
+        <form id="prompt-form" onsubmit="search(event)" >
+            <textarea class="big-container" placeholder="Inserire qui il prompt"></textarea>
             <br>
-            <input type="submit" value="invio">
+            <button value="submit"><img src="invioIMG.png" alt="Invio" id="imgInvio"></button>
+           
         </form>
     </div>
     
     <div class="centered">
-        <p id="loading-sentence">
+        <p id="loading-sentence" class="elaboration-text">
 
         </p>
-        <p id="compare">
+        <p id="compare"  class="elaboration-text">
 
         </p>
     </div>
 
-    <div class="justified">
+    <div class="divRisposta">
         <p id="risposta">
-
+            
+        </p>
+        <p id="pInfo">
+            Inserisci un prompt per ricevere la risposta migliore
         </p>
     </div>
     <script src="javascript.js"></script>
