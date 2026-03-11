@@ -7,9 +7,23 @@
     font-weight: bold;
 }
 
-.prompt-container{
+.centered{
     text-align: center;
     
+}
+
+.justified{
+    text-align: justify;
+}
+
+.big-container{
+    field-sizing: content;
+    min-width: 150px;
+    max-width: 1000px;
+    font-size: 1rem;
+    padding: 8px 12px;
+    resize: none;
+    overflow: hidden;
 }
 
 
