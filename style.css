@@ -20,9 +20,14 @@ button, #imgInvio {
     padding: 0px;
 }
 
+#imgInvio{
+    border-radius: 0px;
+}
+
 button {
-    height: 39px;
-    width: 39px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
 }
 
 
